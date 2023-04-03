@@ -1,6 +1,6 @@
 import tkinter as tk
 
-def tk_main():
+def show_tk_win():
     root = tk.Tk()     
     root.title("Tkinter app")
     root.geometry("300x250")    
@@ -11,4 +11,4 @@ def tk_main():
     root.mainloop()
 
 if __name__ == '__main__':
-    tk_main()
+    show_tk_win()
